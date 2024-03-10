@@ -1,0 +1,26 @@
+lambda：无名字定义一个函数
+cat：将两个数组从另外一个维度拼起来
+all函数和any函数：分别判断数组中所有元素都为True或者至少有一个为True
+装饰器：可以跟踪函数的运行
+min:可以传入关键字参数key来对找最小值对象先进行转换
+sum:可以直接对bool值进行求和
+for _ in range(3)
+zip()将对象中对应的元素打包成一个个元组
+lists和dict是可变对象
+当s是一个list时，list（s）表示建立一个新的list
+is 是比==更强的判断
+通过nolocal来使用parent frame的变量，或者通过list来产生可变函数
+map，filter，zip, reversed 是内置的functions for iterations，类似iter()，可以用list(), tuple(), sorted()转换相应的container
+Python中移位值不能为负数
+for和iterator配合使用，只循环一次
+generator是一种特殊的iterator, yield from 可以依次返回可迭代对象或者迭代器的所有值，通过generator和递归的结合
+对象通过dot访问instance的属性，访问class的方法，即所有对象都共享class的方法，class也可以定义属性被所有对象所共享，Python中的静态方法和普通函数类似，只不过需要通过类来访问
+__repr__(self)和__str__(self)魔法方法能将对象以想要的方式打印出来，__add__定义对象如何进行加操作
+append是将添加的内容以一个整体添加的末尾，extend是将添加内容以多个元素添加到末尾
+f.a当f是一个函数时，a是f的一个attribute，这样可以不用定义non local值
+set是不包含相同元素的，并且具有一定顺序的数据类型，哈希算法用来降低寻找一个元素是否包含在set中的复杂度
+python -O执行时，__debug__内置变量会变成False，不会执行任何断言语句；raise用于主动抛出异常；try用于解决异常而不使程序终止；抛出异常会使程序变慢
+尾递归是递归调用的结果直接被返回的递归，常数的空间复杂度
+使用my_generator = (x * x for x in range(10))可以创建生成器
+函数的父类在定义的时候确定，而不是调用的时候
+(i+1 for i list)得到生成器
